@@ -1,0 +1,237 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--color-grey-9);
+    padding: 5vw 17vw;  
+  }
+
+.header__darkButton{
+    display: flex;
+    border: 0px white;
+    border-radius: 5px;
+    background: var(--color-grey-8);
+}  
+
+.filter__buttons{
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    margin-bottom: 2rem;    
+}
+
+.filter__button{    
+    display: flex;
+    height: 32px;
+    padding: 0px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid var(--color-grey-8);
+    background: var(--color-grey-8);
+}
+
+.filter__button:hover{
+    background: var(--color-grey-1);
+    color: var(--color-grey-8);
+}
+
+.filter__subtitle{
+    margin-bottom: 2rem;
+}
+
+input.price__input {
+    width: 100%;
+    margin-bottom: 2rem;
+    color: black;      
+  }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+img{
+    width: 100%;
+    height: 113px;
+    flex-shrink: 0;
+    border-radius: 4px;
+  }
+
+.renderCards__container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.renderCards__card{    
+    max-width: 300px; 
+    margin: 0 1rem 1.5rem;     
+    border-radius: 4px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background-color: var(--color-grey-8);
+}
+
+.renderCards__spam{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 1.5rem 0.5rem;
+}
+
+.renderCards__albumName{
+    margin: 1.5rem 0.5rem;
+    padding-left: 0.8rem;
+}
+
+.renderCards__price{
+    padding-left: 0.8rem;
+}
+
+.renderCards__info{
+    margin: 1.5rem 0.5rem;
+    padding-left: 0.8rem;
+}
+
+.renderCards__buyButton{
+    border-radius: 4px;
+    border: 1px solid var(--grey-7, #F1F3F5);
+    background-color: var(--color-grey-7);
+    color: var(--color-grey-2);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0px;
+    border: 0px;
+    padding: 0.8rem; 
+}
+
+.renderCards__subtitle{
+    margin-bottom: 2rem;
+}
+
+.price__container{
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: space-between
+}
+
+
+
+@media(max-width: 1025px){
+
+body {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--color-grey-9);
+  padding: 3rem;  
+}
+
+.filter__buttons{
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    margin-bottom: 2rem;    
+}
+
+.filter__button{    
+    display: flex;
+    height: 32px;
+    padding: 0px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid var(--color-grey-8);
+    background: var(--color-grey-8);
+}
+
+.filter__subtitle{
+    margin-bottom: 2rem;
+}
+
+input.price__input {
+    width: 100%;
+    margin-bottom: 2rem;
+    color: black;      
+  }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+img{
+    width: 100%;
+    height: 113px;
+    flex-shrink: 0;
+    border-radius: 4px;
+  }
+
+.renderCards__container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.renderCards__card{    
+    max-width: 300px; /* Defina o tamanho máximo desejado */
+    margin: 0 10px 20px; /* Margem horizontal e espaço entre os cards */    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background-color: var(--color-grey-8);
+}
+
+.renderCards__spam{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0.5rem;
+}
+
+.renderCards__albumName{
+    margin: 1.5rem 0.5rem;
+}
+
+.renderCards__info{
+    margin: 1.5rem 0.5rem;
+}
+
+.renderCards__buyButton{
+    border-radius: 4px;
+    border: 1px solid var(--grey-7, #F1F3F5);
+    background-color: var(--color-grey-7);
+    color: var(--color-grey-2);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0px;
+    border: 0px;
+    padding: 0.8rem; 
+}
+
+.renderCards__subtitle{
+    margin-bottom: 2rem;
+}
+
+.price__container{
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: space-between
+}
+
+}

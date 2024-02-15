@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open Music</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/styles/reset.css" />    
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <link rel="stylesheet" href="./src/styles/globalStyles.css" />
+
+    <!-- SCRIPTS  -->
+    
+
+  </head>
+  <body>
+    <header>
+      <h1 class="header__title">open music</h1>
+      <button class="header__darkButton">🌙</button>
+    </header>
+    <main>
+      <section class="filter__head">
+        <div>
+          <h2 class="filter__subtitle">Genero Musical</h2>
+          <ul class="filter__buttons">
+            <!---Mostra as Categorias --> 
+          </ul>
+        </div>
+        <div> <!---Container para os textos e o input -->
+          <div class="price__container">
+            <h2 class="price__subtitle">Definir Preço</h2>
+            <p>Até R$ <span class="price__text">...</span></p>
+          </div>
+          <input class="price__input" type="range" min="0" max="100" step="1">          
+        </div>
+      </section>
+
+      <section class="renderCards">
+        <h2 class="renderCards__subtitle">Álbuns Encontrados</h2>
+        <ul class="renderCards__container">
+           <!---Mostra os cards -->         
+        </ul>
+      </section>
+    </main>
+    <script type="module" src="/src/scripts/index.js"></script>    
+  </body>
+</html>
